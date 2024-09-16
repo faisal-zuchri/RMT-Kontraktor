@@ -1,0 +1,71 @@
+@media (min-width: 992px) {
+  .btn-wa-bottom {
+    margin-inline: 50rem !important;
+    bottom: 2.5vh !important;
+  }
+
+  .navbar-top {
+    padding-block: 1rem !important;
+  }
+
+  .navbar-bottom {
+    display: none;
+  }
+
+  .footer {
+    padding-block: 3rem 0 !important;
+  }
+
+  .footer-flex {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-1 {
+    width: 50%;
+  }
+
+  .footer-2 {
+    margin-top: 0 !important;
+    margin-bottom: 3rem;
+  }
+
+  .footer-3 {
+    margin-top: 0 !important;
+  }
+
+  #faq {
+    padding-block: 10rem !important;
+  }
+
+  #layanan {
+    padding-block: 10rem !important;
+  }
+
+  #jasa {
+    padding-block: 10rem !important;
+  }
+
+  #portofolio {
+    padding-block: 10rem !important;
+  }
+
+  #chat-kami {
+    padding-block: 10rem !important;
+  }
+
+  .img-info {
+    height: 50rem !important;
+  }
+
+  .landing-page {
+    height: 100vh;
+    padding-inline: 19rem !important;
+    padding-block: 13rem !important;
+  }
+
+  .button-lp {
+    justify-content: start !important;
+  }
+}

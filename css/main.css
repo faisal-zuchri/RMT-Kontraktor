@@ -1,0 +1,17 @@
+@import url("./responsive.css");
+
+* {
+  scroll-behavior: smooth;
+}
+
+html {
+  background: #fff;
+}
+
+.img-portofolio {
+  margin-top: 1rem;
+}
+
+.nav-link.active {
+  color: black;
+}
