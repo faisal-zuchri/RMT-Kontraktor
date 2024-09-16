@@ -1,1 +1,0 @@
-const bootstrap = window.bootstrap;

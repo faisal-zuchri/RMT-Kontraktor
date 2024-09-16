@@ -12,7 +12,7 @@
   }
 
   .navbar-top {
-    padding-block: 1rem !important;
+    padding-block: 0.5rem !important;
   }
 
   .navbar-bottom {
@@ -58,6 +58,10 @@
     padding-block: 10rem !important;
   }
 
+  #portofolio img {
+    margin-top: -1rem;
+  }
+
   #chat-kami {
     padding-block: 10rem !important;
   }
@@ -67,13 +71,61 @@
   }
 
   .landing-page {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     padding-inline: 19rem !important;
     padding-block: 13rem !important;
   }
 
   .button-lp {
-    justify-content: start !important;
+    height: 3rem;
+    width: 20rem;
+    /* justify-content: start !important; */
+  }
+
+  #info-hasil {
+    padding-block: 0 !important;
+  }
+
+  .info-hasil {
+    display: grid;
+    grid-template-columns: 2, 1fr;
+  }
+
+  .info-hasil .img-pengalaman {
+    grid-column: 1;
+  }
+
+  .info-hasil .info-stat {
+    grid-column: 2;
+  }
+
+  .info-stat {
+    align-items: center;
+    margin-top: 0 !important;
+  }
+
+  .portofolio {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    gap: 1rem;
+  }
+
+  .portofolio .img-portofolio-1 {
+    margin-top: 0 !important;
+    grid-column: 1;
+  }
+
+  .portofolio .img-portofolio-2 {
+    margin-top: 0 !important;
+    grid-column: 2;
+  }
+
+  .portofolio .img-portofolio-3 {
+    margin-top: 0 !important;
+    grid-column: 3;
   }
 }
 
