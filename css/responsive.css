@@ -1,6 +1,13 @@
+@media (min-width: 768px) {
+  .btn-wa-bottom {
+    margin-inline: 21rem !important;
+    bottom: 7.5vh !important;
+  }
+}
+
 @media (min-width: 992px) {
   .btn-wa-bottom {
-    margin-inline: 50rem !important;
+    margin-inline: 35rem !important;
     bottom: 2.5vh !important;
   }
 
