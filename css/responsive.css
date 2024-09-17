@@ -127,6 +127,10 @@
     margin-top: 0 !important;
     grid-column: 3;
   }
+
+  .container-fluid {
+    padding-inline: 2rem;
+  }
 }
 
 @media (min-width: 1200px) {
