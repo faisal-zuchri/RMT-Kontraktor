@@ -73,9 +73,9 @@
   .landing-page {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     padding-inline: 19rem !important;
-    padding-block: 13rem !important;
+    padding-block: 13rem 8rem !important;
   }
 
   .button-lp {
@@ -136,9 +136,9 @@
   }
 
   .landing-page {
-    height: 100vh;
+    height: 100%;
     padding-inline: 10rem !important;
-    padding-block: 13rem !important;
+    padding-block: 13rem 8rem !important;
   }
 }
 
@@ -149,8 +149,8 @@
   }
 
   .landing-page {
-    height: 100vh;
+    height: 100%;
     padding-inline: 20rem !important;
-    padding-block: 13rem !important;
+    padding-block: 13rem 8rem !important;
   }
 }
