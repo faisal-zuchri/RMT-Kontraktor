@@ -108,6 +108,7 @@
 
   .portofolio {
     margin-top: 3rem;
+    margin-inline: 15rem;
     display: grid;
     grid-template-columns: 3, 1fr;
     gap: 1rem;
