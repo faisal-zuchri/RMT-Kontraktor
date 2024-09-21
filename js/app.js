@@ -13,7 +13,7 @@ window.onscroll = () => {
     if (!test) {
       stat.forEach((e) => {
         let start = 0;
-        let end = e.dataset.num;
+        let end = e.dataset.stat;
 
         let count = setInterval(() => {
           start++;
