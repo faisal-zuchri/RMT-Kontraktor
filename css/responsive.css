@@ -17,12 +17,10 @@
     margin: 0 auto;
     margin-top: 1rem;
     width: 20rem;
-    /* justify-content: start !important; */
   }
 
-  .plus {
-    margin-top: -3.8rem !important;
-    margin-left: 5rem !important;
+  #info-hasil img {
+    height: 50rem !important;
   }
 }
 
@@ -108,25 +106,13 @@
   #info-hasil {
     padding-block: 0 !important;
     display: grid;
-    grid-template-columns: 2, 1fr;
-  }
-
-  /* .info-hasil {
-    display: grid;
-    grid-template-columns: 2, 1fr;
-  } */
-
-  #info-hasil .img-pengalaman {
-    grid-column: 2;
-  }
-
-  #info-hasil .info-stat {
-    grid-column: 2;
+    grid-template-columns: 1fr 1fr;
   }
 
   .info-stat {
+    padding-block: 12.5rem;
     align-items: center;
-    margin-top: 12.5rem !important;
+    /* margin-top: 12.5rem !important; */
   }
 
   .portofolio {
@@ -158,11 +144,6 @@
 
   .title-jasa {
     padding-block: 17rem 12rem !important;
-  }
-
-  .plus {
-    margin-top: -4.5rem !important;
-    margin-left: 5rem !important;
   }
 }
 
