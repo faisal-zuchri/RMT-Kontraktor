@@ -132,6 +132,10 @@
   .container-fluid {
     padding-inline: 2rem;
   }
+
+  .title-jasa {
+    padding-block: 17rem 12rem !important;
+  }
 }
 
 @media (min-width: 1200px) {
