@@ -86,24 +86,26 @@
 
   #info-hasil {
     padding-block: 0 !important;
-  }
-
-  .info-hasil {
     display: grid;
     grid-template-columns: 2, 1fr;
   }
 
-  .info-hasil .img-pengalaman {
-    grid-column: 1;
+  /* .info-hasil {
+    display: grid;
+    grid-template-columns: 2, 1fr;
+  } */
+
+  #info-hasil .img-pengalaman {
+    grid-column: 2;
   }
 
-  .info-hasil .info-stat {
+  #info-hasil .info-stat {
     grid-column: 2;
   }
 
   .info-stat {
     align-items: center;
-    margin-top: 0 !important;
+    margin-top: 12.5rem !important;
   }
 
   .portofolio {
@@ -135,6 +137,11 @@
 
   .title-jasa {
     padding-block: 17rem 12rem !important;
+  }
+
+  .plus {
+    margin-top: -4.5rem !important;
+    margin-left: 5rem !important;
   }
 }
 
