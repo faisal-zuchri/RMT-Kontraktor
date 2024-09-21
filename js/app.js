@@ -22,7 +22,7 @@ window.onscroll = () => {
           if (start == end) {
             clearInterval(count);
           }
-        }, 2000 / end);
+        }, 1000 / end);
       });
     }
   }
