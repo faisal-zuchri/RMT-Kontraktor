@@ -1,7 +1,28 @@
 @media (min-width: 768px) {
+  .landing-page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-inline: 3rem !important;
+    padding-block: 10rem 8rem !important;
+  }
+
   .btn-wa-bottom {
     margin-inline: 20rem !important;
     bottom: 7.5vh !important;
+  }
+
+  .button-lp {
+    height: 3rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 20rem;
+    /* justify-content: start !important; */
+  }
+
+  .plus {
+    margin-top: -3.8rem !important;
+    margin-left: 5rem !important;
   }
 }
 
