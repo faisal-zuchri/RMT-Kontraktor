@@ -1,5 +1,7 @@
 import {} from "./navbar-bottom.js";
 
+// statistics
+
 let stat = document.querySelectorAll(".stat");
 let infoStat = document.querySelector(".info-stat");
 
@@ -24,3 +26,22 @@ window.onscroll = () => {
     test = true;
   }
 };
+
+// button WA
+
+let btnWA = document.getElementById("btn-wa-bottom");
+
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 1000 ||
+    document.documentElement.scrollTop > 1000
+  ) {
+    btnWA.style.display = "block";
+  } else {
+    btnWA.style.display = "none";
+  }
+}
