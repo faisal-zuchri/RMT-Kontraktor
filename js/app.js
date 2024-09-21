@@ -1,9 +1,11 @@
 import {} from "./navbar-bottom.js";
+// import {} from "./button-wa.js";
 
 // statistics
 
 let stat = document.querySelectorAll(".stat");
 let infoStat = document.querySelector(".info-stat");
+const btnWA = document.getElementById("btn-wa-bottom");
 
 let test = false;
 
@@ -24,23 +26,13 @@ window.onscroll = () => {
       });
     }
   }
-};
 
-// button WA
-
-let btnWA = document.getElementById("btn-wa-bottom");
-
-window.onscroll = function () {
   scrollFunction();
-};
-
-function scrollFunction() {
-  if (
-    document.body.scrollTop > 1000 ||
-    document.documentElement.scrollTop > 1000
-  ) {
-    btnWA.style.display = "block";
-  } else {
-    btnWA.style.display = "none";
+  function scrollFunction() {
+    if (document.documentElement.scrollTop > 1000) {
+      btnWA.style.display = "block";
+    } else {
+      btnWA.style.display = "none";
+    }
   }
-}
+};
