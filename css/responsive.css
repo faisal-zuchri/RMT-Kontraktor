@@ -22,6 +22,23 @@
   #info-hasil img {
     height: 50rem !important;
   }
+
+  .portofolio {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .portofolio .img-portofolio-1 {
+    margin-top: 0 !important;
+    grid-column: 1;
+  }
+
+  .portofolio .img-portofolio-2 {
+    margin-top: 0 !important;
+    grid-column: 2;
+  }
 }
 
 @media (min-width: 992px) {
@@ -110,7 +127,7 @@
   }
 
   .info-stat {
-    padding-block: 12.5rem;
+    padding-block: 11.5rem;
     align-items: center;
     /* margin-top: 12.5rem !important; */
   }
@@ -119,7 +136,7 @@
     margin-top: 3rem;
     margin-inline: 15rem;
     display: grid;
-    grid-template-columns: 3, 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
   }
 
